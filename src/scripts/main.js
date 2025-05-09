@@ -41,7 +41,7 @@ function createTree(element, data) {
     }
     fragment.append(li);
   });
-  element.prepend(fragment);
+  element.append(fragment);
 }
 
 createTree(tree, food);
